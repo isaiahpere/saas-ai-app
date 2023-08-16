@@ -4,14 +4,8 @@ import React from "react";
 import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetFooter,
-  SheetTrigger,
-} from "@/components/ui/sheet";
-import Sidebar from "./Sidebar";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Sidebar from "@/components/Sidebar";
 
 const MobileSidebar = () => {
   return (
